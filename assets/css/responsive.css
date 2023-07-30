@@ -1,0 +1,345 @@
+@media (max-width: 500px) {
+  /* 500 >= Media Query Will Run   */
+  /* Home Page CSS */
+  .slideHomePage {
+    background-position: center;
+  }
+  .slideHomePage h1 {
+    font-size: 30px;
+  }
+  .slideHomePage span {
+    font-size: 30px;
+  }
+  .slideHomePage p {
+    font-size: 15px;
+  }
+  .serviceBtn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  /* HomePage B CSS  */
+  .homePageB .homeB i {
+    font-size: 25px;
+  }
+  .homePageB .homeB h1 {
+    font-size: 20px;
+  }
+  .homePageB .homeB p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .outlineBtn {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+  /* Depertment Page  CSS */
+  .depBody {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .depBody .depImg {
+    height: 240px;
+  }
+  /* Owl Page CSS  */
+  .owlInfo {
+    padding: 40px 0;
+  }
+  /* Doctors Area CSS  */
+  .doctors {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .doctors .img {
+    height: 370px;
+  }
+  /* Emergency Contact Area CSS  */
+  .emergencyContactArea {
+    grid-template-columns: 1fr;
+  }
+  .emergencyContactArea .blockA,
+  .emergencyContactArea .blockB {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .emergencyContactArea h1 {
+    font-size: 22px !important;
+  }
+  .emergencyContactArea p {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 700px) {
+  /* 700 >= Media Query Will Run   */
+  /* Home Page CSS */
+  .slideHomePage {
+    background-position: center;
+  }
+  .slideHomePage h1 {
+    font-size: 35px;
+  }
+  .slideHomePage span {
+    font-size: 35px;
+  }
+  .slideHomePage p {
+    font-size: 18px;
+  }
+  .serviceBtn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  /* HomePage B CSS  */
+  .homePageB .homeB {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .homePageB .homeB i {
+    font-size: 30px;
+  }
+  .homePageB .homeB h1 {
+    font-size: 25px;
+  }
+  .homePageB .homeB p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .outlineBtn {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  /* Welcome-Docmed Area CSS  */
+  .welcomeInfo h1 {
+    font-size: 30px;
+  }
+  .welcomeInfo p {
+    font-size: 17px;
+  }
+  .welcomeInfo ul li {
+    font-size: 17px;
+  }
+  .welcomeBtn {
+    margin-top: 30px;
+    padding: 10px 20px;
+  }
+  /* Depertment Page  CSS */
+  .depHead h1 {
+    font-size: 25px;
+  }
+  .depHead h1::before {
+    margin-top: 40px;
+  }
+  .depHead p {
+    font-size: 15px;
+  }
+  .depBody .depImg {
+    height: 137px;
+  }
+  /* Owl Page CSS  */
+  .owlInfo {
+    padding: 70px 0;
+  }
+  .owlInfo i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .owlInfo p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .owlInfo h3 {
+    font-size: 10px;
+    margin-top: 35px;
+  }
+  /* Service Area CSS  */
+  .serviceHead .sMenu {
+    grid-template-columns: 1fr;
+  }
+  .serviceHead .sMenu a {
+    padding: 10px 0;
+    font-weight: 400;
+    text-align: left;
+  }
+  .sBody {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sBody > div:nth-child(1) {
+    max-width: 100%;
+  }
+  .sBody p {
+    margin-bottom: 30px;
+  }
+  /* Doctors Area CSS  */
+  .doctorsHead {
+    padding: 30px 0;
+  }
+  .doctorsHead h1 {
+    font-size: 25px;
+  }
+  .doctorsHead i {
+    padding: 4px 8px 5px 8px;
+  }
+
+  .doctors .img {
+    height: 200px;
+  }
+  /* Emergency Contact Area CSS  */
+  .emergencyContactArea h1 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .emergencyContactArea p {
+    font-size: 11px;
+  }
+  /* First Footer Area  */
+  .firstFooterArea .footer {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 15px;
+  }
+}
+@media (max-width: 900px) {
+  /* 900 >= Media Query Will Run   */
+  /* Navigation CSS  */
+  .secondNav .appointBtn {
+    display: none;
+  }
+
+  .menubarIcon i {
+    display: block;
+  }
+  .secondNav {
+    position: relative;
+  }
+  .meanMenu {
+    /* display: none ; */
+    position: absolute;
+    background-color: var(--white);
+    top: 89px;
+    z-index: 999;
+    right: 20px;
+    width: 80%;
+    transform: scaleY(0);
+    transform-origin: top ;
+    transition: .3s ;
+  }
+
+
+  .meanMenu li {
+    display: block !important;
+  }
+  /* HomePage B CSS  */
+  .homePageB .homeB {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .homePageB .homeB i {
+    font-size: 35px;
+  }
+  .homePageB .homeB h1 {
+    font-size: 30px;
+  }
+  .homePageB .homeB p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .outlineBtn {
+    font-size: 15px;
+    padding: 15px 25px;
+  }
+  /* Welcome-Docmed Area CSS  */
+  .welcomeDicmed {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .welcomeThumb {
+    width: 100%;
+    padding: 0 20px 120px 20px;
+  }
+  .welcomeInfo {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .welcomeInfo h1 {
+    font-size: 35px;
+  }
+  .welcomeInfo p {
+    font-size: 19px;
+  }
+  .welcomeInfo ul li {
+    font-size: 19px;
+  }
+  .welcomeBtn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+  /* Depertment Page  CSS */
+  .depBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .depBody .depImg {
+    height: 195px;
+  }
+  /* Doctors Area CSS  */
+  .doctors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .doctors .img {
+    height: 290px;
+  }
+  /* Emergency Contact Area CSS  */
+
+  .emergencyContactArea h1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .emergencyContactArea p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1050px) {
+  /* 1050 >= Media Query Will Run   */
+  /* Depertment CSS  */
+  .depBody .depImg {
+    height: 200px;
+  }
+  /* Doctors Area CSS  */
+  .doctors .img {
+    height: 210px;
+  }
+  /* Emergency Contact Area CSS  */
+  .emergencyContactArea {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1170px) {
+  /* 1170 >= Media Query Will Run   */
+  /* Depertment CSS  */
+  .depBody .depImg {
+    height: 200px;
+  }
+  /* Doctors Area CSS  */
+  .doctors .img {
+    height: 210px;
+  }
+  /* Emergency Contact Area CSS  */
+  .emergencyContactArea {
+    grid-template-columns: 1fr;
+  }
+  .emergencyContactArea h1 {
+    font-size: 40px;
+  }
+  .emergencyContactArea p {
+    font-size: 25px;
+  }
+  .outlineBtn {
+    font-size: 20px;
+  }
+}

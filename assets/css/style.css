@@ -1,0 +1,604 @@
+/* ----- Replesment CSS ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --light: #f5fbff;
+  --white: white;
+  --black: #000000;
+  --info: #009dff;
+  --primary: #5db2ff;
+  --primaryB: #83c4ff;
+  --dark: #1f1f1f;
+  --gray: #707070;
+  --secondery: #cfcfcf;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--white);
+  color: var(--dark);
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 20px;
+}
+/* ----- Navigations CSS -----  */
+.navigations > div:nth-child(1) {
+  background-color: var(--light);
+}
+.navigations > div:nth-child(2) {
+  background-color: var(--white);
+}
+/* ----- topNav ----- */
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.topNav ul li {
+  list-style: none;
+  display: inline-block;
+}
+.topNavA li a i {
+  color: var(--secondery);
+  transition: 0.2s ease-in-out;
+  margin-right: 5px;
+}
+.topNavA li a i:hover {
+  color: var(--primaryB);
+}
+.topNav span {
+  margin: 0 15px 0 5px;
+  color: var(--gray);
+}
+.topNavB i {
+  color: var(--primaryB);
+}
+/* ----- meanNav ----- */
+.secondNav {
+  padding: 0 20px;
+  z-index: 99;
+  width: 100%;
+}
+.meanNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.meanNav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.meanNav ul li a {
+  color: var(--gray);
+}
+.appointBtn {
+  background-color: var(--info);
+  color: var(--light);
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 22px;
+}
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  border: 1px solid var(--info);
+  background-color: var(--light);
+  color: var(--info);
+}
+.menubarIcon i {
+  font-size: 30px ;
+  font-weight: 500;
+  border: 1px solid var(--dark );
+  padding: 1px 10px ;
+  border-radius: 3px ;
+  margin-left: 10px ;
+  cursor: pointer;
+  display: none ;
+}
+.menubarIcon i:hover {
+  color: var(--black);
+}
+.menubarIcon i:active  {
+  color: var(--info);
+  border: 1px solid var(--info );
+}
+/* ----- HomePage ----- */
+.slideHomePage {
+  background-image: url(./../img/xbanner2.png.pagespeed.ic.B9cM6-Ibkd.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 0 20px;
+}
+.slideHomePage > div {
+  padding: 180px 0;
+}
+.homePage h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.homePage span {
+  font-size: 70px;
+}
+.homePage p {
+  padding: 15px 0 20px 0;
+  font-size: 18px;
+  color: var(--gray);
+}
+.serviceBtn {
+  border: 1px solid transparent;
+  outline: none;
+  background: linear-gradient(40deg, var(--info), var(--primary));
+  padding: 18px 30px;
+  border-radius: 5px;
+  color: var(--secondery);
+  transition: all 0.3s ease-in-out;
+}
+.serviceBtn:hover {
+  background: linear-gradient(40deg, var(--light), var(--light));
+  border: 1px solid var(--info);
+  color: var(--info);
+}
+/* ----- HomePageB CSS ----- */
+.homePageB {
+  background-color: var(--primaryB);
+  color: var(--white);
+}
+.homeB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeB > div {
+  padding: 40px 20px;
+}
+.homeB > div:nth-child(2) {
+  background-color: var(--primary);
+}
+.homeB i {
+  font-size: 40px;
+}
+.homeB h1 {
+  font-size: 28px;
+  padding: 5px 0 10px 0;
+}
+.homeB p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.outlineBtn {
+  color: var(--white);
+  padding: 13px 23px;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.outlineBtn:hover {
+  background: var(--white);
+  color: var(--primary);
+}
+/* Welcome Docmed Area CSS */
+.welcomeDocmedArea {
+  background: var(--white);
+}
+.welcomeDicmed {
+  padding: 100px 0 200px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcomeThumb {
+  position: relative;
+  width: 50%;
+}
+.thumb2 {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+}
+.welcomeInfo {
+  max-width: 40%;
+}
+.welcomeInfo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 35px;
+}
+.welcomeInfo h3::before {
+  position: absolute;
+  content: "";
+  border: 1px solid var(--primary);
+  width: 100px;
+  margin-top: 38px;
+}
+.welcomeInfo h1 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.welcomeInfo p {
+  font-size: 19px;
+  color: var(--gray);
+  line-height: 30px;
+}
+.welcomeInfo ul {
+  margin-top: 18px;
+}
+.welcomeInfo i {
+  color : var(--primary) ;
+}
+.welcomeInfo ul li {
+  list-style: none;
+  color: var(--gray);
+  line-height: 28px;
+  font-size: 19px;
+}
+
+.welcomeBtn {
+  margin-top: 50px;
+  color: var(--info);
+  padding: 13px 23px;
+  border: 1px solid var(--info);
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.welcomeBtn:hover {
+  background: var(--info);
+  color: var(--white);
+}
+/* ----- Department Area CSS ----- */
+.departmentArea {
+  background: var(--light);
+}
+.departmentArea .depHead {
+  text-align: center;
+  padding: 100px 0px 80px 0;
+}
+.depHead h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.depHead h1::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  background-color: var(--info);
+  left: 50%;
+  height: 1px;
+  transform: translateX(-50%);
+  margin-top: 55px;
+}
+.depHead p {
+  font-size: 18px;
+  color: var(--gray);
+  margin-top: 20px;
+}
+/* Department Body */
+.depBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  padding-bottom: 150px;
+}
+.depCard {
+  box-shadow: 0px 0px 20px #0000002e;
+  border-radius: 5px;
+  background: var(--white);
+  padding: 0 0 20px 0;
+  overflow: hidden;
+}
+.depImg {
+  height: 220px;
+  overflow: hidden;
+}
+.depImg img {
+  width: 100%;
+  transition: 0.1s ease-in;
+}
+.depImg img:hover {
+  transform: scale(1.15);
+}
+.depContant {
+  padding: 12px 30px 15px 30px;
+}
+.depContant h1 {
+  font-weight: 500;
+  color: var(--gray);
+}
+.depContant > h1 > a {
+  color: var(--dark);
+  transition: 0.2s ease-in-out;
+}
+.depContant > h1 > a:hover {
+  color: var(--info);
+}
+.depContant p {
+  font-size: 18px;
+  color: var(--gray);
+  padding: 10px 0 16px 0;
+}
+.depContant > a {
+  color: var(--info);
+}
+.depContant > a:hover {
+  text-decoration: underline;
+}
+/* ----- Owl Section CSS ----- */
+.owlItems {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
+    url(./../img/x1.png.pagespeed.ic.NH__KL9wkr.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.owlInfo {
+  text-align: center;
+  color: var(--white);
+  padding: 200px 0;
+}
+.owlInfo i {
+  font-size: 60px;
+  margin-bottom: 20px;
+  display: block;
+}
+.owlInfo p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.owlInfo h3 {
+  font-size: 15px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.owlInfo h3::before {
+  content: "";
+  position: absolute;
+  background-color: var(--white);
+  width: 50px;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 22px;
+}
+/* ----- Service Area ----- */
+.serviceHead {
+  background-color: var(--light);
+}
+.sMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.sMenu li {
+  list-style: none;
+  text-align: center;
+}
+.sMenu li a {
+  padding: 30px 0;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--gray);
+}
+.serviceBody {
+  padding-bottom: 150px;
+}
+.serviceBody hr {
+  border: 1px solid var(--secondery);
+}
+.sBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+.sBody > div:nth-child(1) {
+  max-width: 50%;
+}
+.sBody i {
+  padding: 15px 20px;
+  font-size: 30px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 100%;
+  margin: 0 0 20px 0;
+  display: inline-block;
+}
+.sBody h1 {
+  font-weight: 500;
+  color: var(--dark);
+  margin-bottom: 10px;
+}
+.sBody p {
+  color: var(--gray);
+}
+/* ----- Doctors Area CSS ----- */
+.doctors {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 100px;
+}
+.doctorsHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.doctorsHead h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.doctorsHead i {
+  border: 1px solid var(--secondery);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 9px 11px 10px 11px;
+  margin: 0 0 0 10px;
+  transition: 0.2s;
+}
+.doctorsHead i:hover {
+  background-color: var(--info);
+  border: 1px solid transparent;
+  color: var(--white);
+}
+.doctors .items {
+  background-color: var(--light);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.2s;
+  overflow: hidden;
+  color: var(--dark);
+}
+.doctors .img {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+.doctors .items img {
+  width: 100%;
+  transition: 0.2s;
+}
+.doctors .itemsBody {
+  text-align: center;
+  padding: 20px 0;
+}
+.doctors .itemsBody h1 {
+  font-weight: 500;
+}
+.doctors .items:hover {
+  color: var(--light);
+  background: var(--primary);
+}
+.doctors .items:hover .img img {
+  transform: scale(1.05);
+}
+/* ----- Emergency Contact Area CSS */
+.emergencyContactArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+.emergencyContactArea > div {
+  padding: 100px 20px;
+  color: var(--light);
+}
+.emergencyContactArea .blockA {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgb(1 67 87 / 76%), rgb(0 65 88 / 85%)),
+    url(./../img/xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.emergencyContactArea .blockB {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgb(1 65 86 / 81%), rgb(1 65 86 / 68%)),
+    url(./../img/xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.emergencyContactArea h1 {
+  font-weight: 500;
+  font-size: 25px;
+  padding: 5px 0;
+}
+.emergencyContactArea p {
+  font-size: 15px;
+}
+/* -----First Footer Area CSS */
+.firstFooterArea {
+  background-color: var(--dark);
+  padding: 100px 0;
+}
+.firstFooterArea .footer {
+  display: grid;
+  grid-template-columns: 5fr 3fr 3fr 4fr;
+}
+.firstFooterArea .footer > div {
+  padding: 20px 0;
+}
+.firstFooterArea .footer h1 {
+  color: var(--light);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.firstFooterArea .footer > div > p {
+  color: var(--gray);
+  line-height: 25px;
+  font-size: 18px;
+  margin: 30px 0;
+}
+.firstFooterArea > div ul li {
+  list-style: none;
+  line-height: 35px;
+  color: var(--gray);
+}
+.firstFooterArea > div ul li a {
+  color: var(--gray);
+  transition: 0.1s ease-in-out;
+}
+.firstFooterArea > div ul li a:hover {
+  color: var(--primary);
+}
+.firstFooterArea > div .icons li {
+  list-style: none;
+  display: inline-block;
+}
+.firstFooterArea > div .icons li a {
+  border: 1px solid transparent;
+  width: 50px;
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+  background-color: var(--gray);
+  color: light;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.firstFooterArea > div .icons li a i {
+  color: var(--secondery);
+  transition: 0.1s ease-in-out;
+}
+.firstFooterArea > div .icons li a:hover i {
+  color: var(--white);
+}
+/* Last Footer Area  */
+footer {
+  text-align: center;
+  background-color: var(--black);
+  padding: 30px 0;
+  font-size: 20px;
+  color: var(--gray);
+}
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+}
