@@ -17,12 +17,7 @@ At HealthHub, we believe in putting your well-being first. With a wealth of heal
 
 ## Demo
 
-- GitHub Repo Link:- https://github.com/fokhrul2029/Health-Care.git
-
-- Live Link:- https://health-care2029.netlify.app/
-
-- Screenshot:-
-  ![Health-Care full page](https://github.com/fokhrul2029/Health-Care/assets/105439053/379df36f-cf6b-40e3-ab14-fb79729dccd4)
+- Live Link:- medical-health-care.vercel.app
 
 ## Technologies Used
 
@@ -39,15 +34,3 @@ HealthHub is built using a variety of technologies and tools to ensure a smooth 
 - **Responsive Design**: CSS media queries and responsive design principles are applied for optimal performance on different screen sizes.
 
 This technology stack ensures that HealthHub offers a robust and feature-rich platform for your healthcare needs. If you have questions about any of these technologies or want to learn more about our development process, feel free to reach out to our team.
-
-## Contact
-
-If you have any questions, feedback, or need support regarding HealthHub, we're here to help. You can reach us through the following channels:
-
-- **Email**: ifokhrul.2029@gmail.com
-
-- **LinkedIn**: https://www.linkedin.com/in/fokhrul2029/
-- **Facebook**: https://web.facebook.com/ifokhrul.2029
-- **WhatsApp**: http://wa.me/+8801742672425
-
-#### Feel free to send me a message If you want.
